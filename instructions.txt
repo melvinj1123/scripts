@@ -1,0 +1,6 @@
+git clone git@github.com:melvinj1123/scripts.git
+git add .
+git commit -m "enter a message"
+git push origin master 
+
+git pull ##to get only changes from the github repo ##
