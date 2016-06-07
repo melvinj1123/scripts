@@ -1,0 +1,15 @@
+#!/bin/bash
+{
+echo "Shaking..."
+echo 
+sleep 3
+value="$[ $RANDOM % 3 ]"
+case $value in 
+ 0) echo "All signs point to yes." ;;
+ 1) echo "The anser is no." ;;
+ 2) echo "Ask again later." ;;
+ 3) echo "Outlook hazy." ;;
+esac
+echo
+}
+
